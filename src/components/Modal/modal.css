@@ -1,0 +1,7 @@
+.modal-dialog {
+  max-width: 800px !important;
+}
+.modal-content-block {
+  display: grid;
+  gap: 10px;
+}

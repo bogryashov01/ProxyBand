@@ -1,0 +1,20 @@
+.posts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 20px;
+}
+.post-block {
+  border: 1px solid #000;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 688px) {
+  .posts-container {
+    grid-template-columns: 1fr;
+    padding: 50px 10px;
+  }
+}
